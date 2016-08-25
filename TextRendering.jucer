@@ -48,5 +48,5 @@
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
   </MODULES>
-  <JUCEOPTIONS JUCE_USE_COREIMAGE_LOADER="disabled" JUCE_USE_DIRECTWRITE="disabled"/>
+  <JUCEOPTIONS JUCE_USE_DIRECTWRITE="disabled"/>
 </JUCERPROJECT>

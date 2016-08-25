@@ -1,4 +1,4 @@
-﻿/*
+/*
   ==============================================================================
 
     This file was auto-generated!
@@ -6,7 +6,7 @@
   ==============================================================================
 */
 
-#include "MainComponent.h"
+#include "MainComponent.h" 
 
 const String content (L"朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。\n\n在几次被撂到路上的不快经历之后，陪伴我们整整11年的小拓终于被我无情地抛弃了：）换了一辆丰田的混动车（卡罗拉双擎）。这个车谈不上什么操控和运动，但是买菜基本够用了：）有点吃惊的并不是油耗和静音环保、油电协同的“黑科技”，而是Corolla这个神车进化到目前，虽然日系车的风格依然浓厚而根深蒂固，但行驶质感和整体感却多了一些德系车的味道。这点不错。\n\nThe quick brown fox jumps over the lazy dog, 9876543210. In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.");
 
@@ -119,7 +119,7 @@ MainContentComponent::MainContentComponent () :
     someContent.setSelectAllWhenFocused (true);
     someContent.setMultiLine (true, true);
     someContent.setReturnKeyStartsNewLine (true);
-    someContent.setText ("The quick brown fox jumps over the lazy dog, 9876543210. THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG'S BACK 1234567890 - In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.");
+    someContent.setText (L"汉字的显示效果。The quick brown fox jumps over the lazy dog, 9876543210. THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG'S BACK 1234567890 - In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.");
 
     setSize (1000, 600);
 }
