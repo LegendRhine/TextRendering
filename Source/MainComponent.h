@@ -27,7 +27,7 @@ public:
     ~MainContentComponent() {}
 
     void paint (Graphics& g) override;
-    void resized ();
+    void resized() override;
 
     virtual void sliderValueChanged (Slider* slider) override;
     virtual void comboBoxChanged (ComboBox* comboBoxThatHasChanged) override;
