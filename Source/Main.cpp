@@ -16,8 +16,9 @@ class RenderingLookAndFeel : public LookAndFeel_V3
 public:
     RenderingLookAndFeel ()
     {
-        setDefaultSansSerifTypefaceName ("Microsoft YaHei Light");
-    }    
+        //setDefaultSansSerifTypefaceName ("Microsoft YaHei Light");
+        setDefaultSansSerifTypefaceName ("Microsoft YaHei");
+    }
 };
 //==============================================================================
 class TextRenderingApplication : public JUCEApplication

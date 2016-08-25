@@ -1,4 +1,4 @@
-/*
+ï»¿/*
   ==============================================================================
 
     This file was auto-generated!
@@ -8,14 +8,14 @@
 
 #include "MainComponent.h"
 
-const String content (L"³¯´Ç°×µÛ²ÊÔÆ¼ä£¬Ç§Àï½­ÁêÒ»ÈÕ»¹¡£Á½°¶Ô³ÉùÌä²»×¡£¬ÇáÖÛÒÑ¹ýÍòÖØÉ½¡£\n\nÔÚ¼¸´Î±»ÁÌµ½Â·ÉÏµÄ²»¿ì¾­ÀúÖ®ºó£¬Åã°éÎÒÃÇÕûÕû11ÄêµÄÐ¡ÍØÖÕÓÚ±»ÎÒÎÞÇéµØÅ×ÆúÁË£º£©»»ÁËÒ»Á¾·áÌïµÄ»ì¶¯³µ£¨¿¨ÂÞÀ­Ë«Çæ£©¡£Õâ¸ö³µÌ¸²»ÉÏÊ²Ã´²Ù¿ØºÍÔË¶¯£¬µ«ÊÇÂò²Ë»ù±¾¹»ÓÃÁË£º£©ÓÐµã³Ô¾ªµÄ²¢²»ÊÇÓÍºÄºÍ¾²Òô»·±£¡¢ÓÍµçÐ­Í¬µÄ¡°ºÚ¿Æ¼¼¡±£¬¶øÊÇCorollaÕâ¸öÉñ³µ½ø»¯µ½Ä¿Ç°£¬ËäÈ»ÈÕÏµ³µµÄ·ç¸ñÒÀÈ»Å¨ºñ¶ø¸ùÉîµÙ¹Ì£¬µ«ÐÐÊ»ÖÊ¸ÐºÍÕûÌå¸ÐÈ´¶àÁËÒ»Ð©µÂÏµ³µµÄÎ¶µÀ¡£Õâµã²»´í¡£\n\nThe quick brown fox jumps over the lazy dog, 9876543210. In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.");
+const String content (L"æœè¾žç™½å¸å½©äº‘é—´ï¼Œåƒé‡Œæ±Ÿé™µä¸€æ—¥è¿˜ã€‚ä¸¤å²¸çŒ¿å£°å•¼ä¸ä½ï¼Œè½»èˆŸå·²è¿‡ä¸‡é‡å±±ã€‚\n\nåœ¨å‡ æ¬¡è¢«æ’‚åˆ°è·¯ä¸Šçš„ä¸å¿«ç»åŽ†ä¹‹åŽï¼Œé™ªä¼´æˆ‘ä»¬æ•´æ•´11å¹´çš„å°æ‹“ç»ˆäºŽè¢«æˆ‘æ— æƒ…åœ°æŠ›å¼ƒäº†ï¼šï¼‰æ¢äº†ä¸€è¾†ä¸°ç”°çš„æ··åŠ¨è½¦ï¼ˆå¡ç½—æ‹‰åŒæ“Žï¼‰ã€‚è¿™ä¸ªè½¦è°ˆä¸ä¸Šä»€ä¹ˆæ“æŽ§å’Œè¿åŠ¨ï¼Œä½†æ˜¯ä¹°èœåŸºæœ¬å¤Ÿç”¨äº†ï¼šï¼‰æœ‰ç‚¹åƒæƒŠçš„å¹¶ä¸æ˜¯æ²¹è€—å’Œé™éŸ³çŽ¯ä¿ã€æ²¹ç”µååŒçš„â€œé»‘ç§‘æŠ€â€ï¼Œè€Œæ˜¯Corollaè¿™ä¸ªç¥žè½¦è¿›åŒ–åˆ°ç›®å‰ï¼Œè™½ç„¶æ—¥ç³»è½¦çš„é£Žæ ¼ä¾ç„¶æµ“åŽšè€Œæ ¹æ·±è’‚å›ºï¼Œä½†è¡Œé©¶è´¨æ„Ÿå’Œæ•´ä½“æ„Ÿå´å¤šäº†ä¸€äº›å¾·ç³»è½¦çš„å‘³é“ã€‚è¿™ç‚¹ä¸é”™ã€‚\n\nThe quick brown fox jumps over the lazy dog, 9876543210. In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.");
 
 //==============================================================================
 MainContentComponent::MainContentComponent () :
-                heightLabel (String (), L"´óÐ¡"),
-                scaleLabel (String (), L"Ëõ·Å"),
-                styleLabel (String (), L"ÑùÊ½"),
-                fontLabel (String (), L"×ÖÌå")
+                heightLabel (String (), L"å¤§å°"),
+                scaleLabel (String (), L"ç¼©æ”¾"),
+                styleLabel (String (), L"æ ·å¼"),
+                fontLabel (String (), L"å­—ä½“")
 {
     // text editors...
     for (int i = 4; --i >= 0; )
@@ -83,30 +83,30 @@ MainContentComponent::MainContentComponent () :
     styleBox.addItemList (newStyles, 1);
     styleBox.setSelectedItemIndex (0);
 
-    fontBox.addItem ("Microsoft YaHei Light", 1);
-    fontBox.addItem ("Microsoft YaHei UI", 2);
-    fontBox.addItem ("Hiragino Sans GB W3", 3);
-    fontBox.addItem ("PingFang SC", 4);
-    fontBox.addItem ("SimHei", 5);
-    fontBox.addItem ("SimSun", 6);
-    fontBox.addItem ("STFangsong", 7);
-    fontBox.addItem ("STKaiti", 8);
-    fontBox.addItem ("STSong", 9);
-    fontBox.addItem ("STXihei", 10);
-    fontBox.addItem ("STZhongsong", 11);
-    fontBox.addItem ("Arial Unicode MS", 12);
-    fontBox.addItem ("DengXian", 13);
-    fontBox.addItem ("FangSong", 14);
-    fontBox.addItem ("FZLanTingHeiS-UL-GB", 15);
-    fontBox.addItem ("FZYaoTi", 16);
-    fontBox.addItem ("KaiTi", 17);
-    fontBox.addItem ("LiSu", 18);
-    fontBox.addItem ("Microsoft JhengHei", 19);
-    fontBox.addItem ("Microsoft JhengHei UI", 20);
-    fontBox.addItem ("NSimSun", 21);
-    fontBox.addItem ("STCaiyun", 22);
-    fontBox.addItem ("Microsoft YaHei", 23);
-    fontBox.addItem ("Microsoft YaHei UI Light", 24);
+    fontBox.addItem ("Microsoft YaHei", 1);
+    fontBox.addItem ("Microsoft YaHei Light", 2);
+    fontBox.addItem ("Microsoft YaHei UI", 3);
+    fontBox.addItem ("Microsoft YaHei UI Light", 4);
+    fontBox.addItem ("Hiragino Sans GB W3", 5);
+    fontBox.addItem ("PingFang SC", 6);
+    fontBox.addItem ("Arial Unicode MS", 7);
+    fontBox.addItem ("SimHei", 8);
+    fontBox.addItem ("SimSun", 9);
+    fontBox.addItem ("STFangsong", 10);
+    fontBox.addItem ("STKaiti", 11);
+    fontBox.addItem ("STSong", 12);
+    fontBox.addItem ("STXihei", 13);
+    fontBox.addItem ("STZhongsong", 14);
+    fontBox.addItem ("DengXian", 15);
+    fontBox.addItem ("FangSong", 16);
+    fontBox.addItem ("FZLanTingHeiS-UL-GB", 17);
+    fontBox.addItem ("FZYaoTi", 18);
+    fontBox.addItem ("KaiTi", 19);
+    fontBox.addItem ("LiSu", 20);
+    fontBox.addItem ("Microsoft JhengHei", 21);
+    fontBox.addItem ("Microsoft JhengHei UI", 22);
+    fontBox.addItem ("NSimSun", 23);
+    fontBox.addItem ("STCaiyun", 24);
     
     fontBox.setSelectedItemIndex (0);
     
