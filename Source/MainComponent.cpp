@@ -1,4 +1,4 @@
-/*
+﻿/*
   ==============================================================================
 
     This file was auto-generated!
@@ -119,7 +119,7 @@ MainContentComponent::MainContentComponent () :
     someContent.setSelectAllWhenFocused (true);
     someContent.setMultiLine (true, true);
     someContent.setReturnKeyStartsNewLine (true);
-    someContent.setText (L"汉字的显示效果。The quick brown fox jumps over the lazy dog, 9876543210. THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG'S BACK 1234567890 - In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.");
+    someContent.setText (L"汉字的显示效果。The quick brown fox jumps over the lazy dog, 汉字的显示效果。9876543210. THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG'S BACK 1234567890 - In the age of computers, this pangram is commonly used to display font samples and for testing computer keyboards. In cryptography, it is commonly used as a test vector for hash and encryption algorithms to verify their implementation, as well as to ensure alphabetic character set compatibility.", false);
 
     setSize (1000, 600);
 }

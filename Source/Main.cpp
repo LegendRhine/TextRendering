@@ -17,7 +17,8 @@ public:
     RenderingLookAndFeel ()
     {
         //setDefaultSansSerifTypefaceName ("Microsoft YaHei Light");
-        setDefaultSansSerifTypefaceName ("Microsoft YaHei");
+        //setDefaultSansSerifTypefaceName ("Microsoft YaHei");
+        setDefaultSansSerifTypefaceName ("YeHei Consolas Hybrid");
     }
 };
 //==============================================================================
